@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h4{
+    font-family: "Wittgenstein", serif;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.danceStyles{
+    margin: 15px;
+    font-family: "Wittgenstein", serif;
+}
+
+.danceStyles p{
+    font-family: "raleway" , serif;
+}
+
+#danceInfo a{
+    text-decoration: none;
+    font-weight: 500;
+    color: blue;
+    transition: color 0.2s ease-in-out;
+}
+#danceInfo a:hover{
+    color: red;
+    font-weight: bold;
+}
+    
+#style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin: 10px;
+    height: 50vh;
+    border-radius: 47px;
+}
+
+.style1{
+    background-color: #ffe0ef;
+}
+.style2{
+    background-color: #ffe0ef;
+}
+.style3{
+    background-color: #ffe0ef;
+}
+.style4{
+    background-color: #ffe0ef;
+}
+.style5{
+    background-color: #ffe0ef;
+}
+.style6{
+    background-color: #ffe0ef;
+}
+.style7{
+    background-color: #ffe0ef;
+}
+
+
+
+
+#danceImg {
+    border: 2px solid black;
+    width: 25vw;
+    height: 35vh;
+    margin: 10px 10px;
+    border-radius: 47px;
+}
+
+.img1{
+    background: url('../static/salsaDance.png') right / cover no-repeat;
+}
+.img2{
+    background: url('../static/contemporaryDance.png') center / cover no-repeat;
+}
+.img3{
+    background: url('../static/hiphopDance.png') center / cover no-repeat;
+}
+.img4{
+    background: url('../static/folkDance.png') center / cover no-repeat;
+}
+.img5{
+    background: url('../static/balletDance.png') right / cover no-repeat;
+}
+.img6{
+    background: url('../static/bharatnatyamDance.png') right / cover no-repeat;
+}
+.img7{
+    background: url('../static/bellyDance.png') center / cover no-repeat;
+}
+
+
+#danceInfo {
+    width: 60vw;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 47px;
+}
+#timings {
+    width: 15vw;
+    margin: 10px 5px;
+    padding-top: 10px;
+    border-radius: 47px;
+    text-align: center;
+    color: #0084bd;
+}
+
+h5{
+    font-family: "Wittgenstein", serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #870019;
+}

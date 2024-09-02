@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 80vh;
+}
+
+h3{
+    font-family: "Wittgenstein", serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: 40px ;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 10px 5px;
+}
+
+.myInput{
+    margin: 10px;
+    width: 44%;
+    padding: 11px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-family: "Wittgenstein", serif;
+}
+
+.btn{
+    margin-top: 14px;
+    padding: 7px 17px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(6 109 214 / 83%);
+    cursor: pointer;
+    font-family: "Wittgenstein", serif;
+}

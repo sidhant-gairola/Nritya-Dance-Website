@@ -1,0 +1,20 @@
+doctype html 
+html
+  head
+    title Nritya Dance Academy
+    block scripts
+    block style 
+  body
+    nav#navbar 
+            ul
+                div#logo
+                    img(src="../static/logo.png")
+                    | NDA
+                li #[a(href='/') Home] 
+                li #[a(href='classInfo') Classes Info] 
+                li #[a(href='membership') Membership] 
+                li #[a(href='about') About]
+                li #[a(href='services') Services] 
+    block content
+    footer#footer 
+            h2   Copyright © 2024 NrityaDanceAcademy.com | All rights reserved 

@@ -1,0 +1,25 @@
+.aboutUs {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.aboutUs h1 {
+    font-size: 2.5em;
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.aboutUs p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.aboutUs p:last-of-type {
+    margin-bottom: 0;
+}

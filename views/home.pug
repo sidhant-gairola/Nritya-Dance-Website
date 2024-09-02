@@ -1,0 +1,31 @@
+extends layout.pug
+
+block scripts
+  script(src='/static/script.js')
+
+block style     
+    style 
+        include ../static/style.css
+
+block content 
+
+
+    section#introSection
+        div  Welcome to नृत्य Dance Academy 
+        div.introSecondChild “Dancers come and go in the twinkling of an eye, but the dance lives on.” - Michael Jackson
+
+    section#missionSection 
+        h2 Our Mission 
+        div.card#card1
+            h3 Dance Perfection 
+        div.card#card2
+            h3 Dance The Way You Like
+        div.card#card3
+            h3 Expert Teaching 
+        
+    section#sponsorSection 
+        h2 Our Sponsors 
+        div#sponsors 
+            img(src="../static/sponsor1.png", alt="" class="spImage")
+            img(src="../static/sponsor2.png", alt="" class="spImage")
+            img(src="../static/sponsor3.jpg", alt="" class="spImage")
