@@ -9,6 +9,8 @@
 #navbar {
     background-color: rgb(6 109 214 / 83%);
     padding: 5px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #logo {
