@@ -17,4 +17,4 @@ HTML5 & CSS3 for the front-end structure and design.
 JavaScript for interactive elements.
 Bootstrap for responsive layout and styling.
 EJS for templating views.
-MongoDB (if applicable) for data storage.
+MongoDB for data storage.
