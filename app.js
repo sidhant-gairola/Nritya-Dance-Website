@@ -2,8 +2,16 @@ const express = require("express");
 const path = require("path");
 const app = express();
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/contactDance');
 const port = 80;
+
+const mongoURI = "mongodb+srv://NDanceDB:NrityaDataBase@dancedb.sy5fu.mongodb.net/?retryWrites=true&w=majority&appName=DanceDB";
+
+
+mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => console.log("✅ Connected to MongoDB Atlas"))
+  .catch(err => console.error("❌ MongoDB connection error:", err));
+
+
 
 //define mongoose schema
 const contactSchema = new mongoose.Schema({

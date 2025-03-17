@@ -27,16 +27,11 @@ h3{
 
 .myInput{
     margin: 10px;
-    width: 44%;
+    width: 35%;
     padding: 11px;
     border: 2px solid black;
     border-radius: 20px;
     font-family: "Wittgenstein", serif;
-}
-.myInput:hover{
-    transform: scale(1.05);
-    transition: 0.3s ease-in-out;
-    background-color: rgb(230, 230, 230);
 }
 
 .btn{
@@ -46,12 +41,12 @@ h3{
     border-radius: 15px;
     font-weight: 700;
     color: white;
-    background-color: rgb(6 109 214 / 83%);
+    background-color: rgb(84, 153, 221);
     cursor: pointer;
     font-family: "Wittgenstein", serif;
 }
 .btn:hover{
-    background-color: #fff;
-    color: rgb(6 109 214 / 83%);
+    color: white;
+    background-color: rgb(6 109 214 / 83%);
     transition: 0.3s ease-in-out;
 }

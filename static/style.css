@@ -85,6 +85,9 @@ ul {
 
 #missionSection h2 {
     font-family: "Wittgenstein", serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
     font-size: 30px;
     text-align: center;
     padding-top: 12px;
