@@ -2,12 +2,12 @@ const express = require("express");
 const path = require("path");
 const app = express();
 const mongoose = require('mongoose');
-const port = 80;
+const port = process.env.PORT || 80;
 
 const mongoURI = "mongodb+srv://NDanceDB:NrityaDataBase@dancedb.sy5fu.mongodb.net/?retryWrites=true&w=majority&appName=DanceDB";
 
 
-mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(mongoURI)
   .then(() => console.log("✅ Connected to MongoDB Atlas"))
   .catch(err => console.error("❌ MongoDB connection error:", err));
 
@@ -25,7 +25,7 @@ var Contact = mongoose.model('Contact', contactSchema);
 
 // Express specific content
 app.use("/static",express.static('static'));
-app.use(express.urlencoded())
+app.use(express.urlencoded({ extended: true }));
 
 //PUG specific content
 app.set('view engine','pug')    //set the template engine as PUG
