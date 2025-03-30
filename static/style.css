@@ -6,6 +6,18 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    #navbar li {
+        padding: 10px 0;
+    }
+}
+
+
+
 #navbar {
     background-color: rgb(6 109 214 / 83%);
     padding: 5px;
@@ -55,10 +67,17 @@ ul {
     transition: background-color 0.5s ease-in-out;
 }
 
-#introSection {
-    font-size: 3rem;
+@media (max-width: 768px) {
+    #introSection {
+        font-size: 2rem;
+        height: auto;
+        padding: 20px;
+    }
+}
+
+
+    #introSection {
     font-family: "Bona Nova SC", serif;
-    ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,12 +95,14 @@ ul {
     margin-top: 5px;
 }
 
-#missionSection {
-    width: 85%;
-    margin: auto;
-    display: block;
-    height: 326px;
+@media (max-width: 768px) {
+    #missionSection {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
 }
+
 
 #missionSection h2 {
     font-family: "Wittgenstein", serif;
@@ -95,10 +116,18 @@ ul {
     border: 2px solid black;
     border-radius: 10px;
     display: inline-block;
-    width:30%;
+    width: 30%;
     margin: 23px 18px;
     height: 209px;
 }
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
 
 .card h3 {
     text-align: center;
@@ -120,10 +149,14 @@ ul {
 
 
 
-#sponsorSection {
-    height: 300px;
-    background-color: rgba(197, 219, 243, 0.716);
+@media (max-width: 768px) {
+    #sponsorSection {
+        height: auto;
+        padding: 20px;
+        background-color: rgba(197, 219, 243, 0.716);
+        }
 }
+
 
 #sponsors {
     display: flex;

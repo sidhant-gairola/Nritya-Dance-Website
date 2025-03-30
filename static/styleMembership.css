@@ -25,7 +25,12 @@ h3{
     padding: 10px 5px;
 }
 
-.myInput{
+@media (max-width: 768px) {
+    .myInput {
+        width: 80%;
+    }
+}
+.myInput {
     margin: 10px;
     width: 35%;
     padding: 11px;
@@ -34,9 +39,16 @@ h3{
     font-family: "Wittgenstein", serif;
 }
 
-.btn{
+@media (max-width: 768px) {
+    .btn {
+        margin-top: 30px;
+        padding: 10px 20px;
+    }
+}
+.btn {
     margin-top: 60px;
-    padding: 7px 17px;
+
+       padding: 7px 17px;
     border: 2px solid black;
     border-radius: 15px;
     font-weight: 700;
