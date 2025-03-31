@@ -4,7 +4,7 @@ const app = express();
 const mongoose = require('mongoose');
 const port = process.env.PORT || 80;
 
-const mongoURI = "mongodb+srv://NDanceDB:NrityaDataBase@dancedb.sy5fu.mongodb.net/?retryWrites=true&w=majority&appName=DanceDB";
+const mongoURI = "mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.10";
 
 
 mongoose.connect(mongoURI)
